@@ -1,1 +1,19 @@
 .gameboard {width: 1500px; height: 700px;}
+.turkey {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/583/334/non_2x/thanksgiving-turkey-bird-decoration-party-background-holiday-cartoon-illustration-clipart-sticker-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#player {
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    top: 500px
+}
