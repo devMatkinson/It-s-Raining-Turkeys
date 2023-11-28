@@ -1,9 +1,16 @@
-const player= document.getElementById("player")
-document.addEventListener("keydown", (event)=>{
-    if(event.keycode = 37){
-        player.style.left = -200
-        console.log("move left")
+const player = document.getElementById("player");
+player.style.left = "0px"
+
+document.addEventListener('keydown',(e) => {
+    if (e.key === 'a' || e.key === "ArrowLeft") {
+        player.style.left = `${makePositionNumber(player, "left") - 10}px`;
+    } else if(e.key === 'd' || e.key === "ArrowRight") {
+        player.style.left = `${makePositionNumber(player, "left") + 10}px`;
     }
-    console.log("move left")
-    
-})
+});
+function makePositionNumber(object, position) { 
+    let property = object.style[position].split("");
+    property.pop();
+    property.pop();
+    property = property.join("");
+    return parseInt(property);}
