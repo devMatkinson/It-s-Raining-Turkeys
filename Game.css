@@ -1,1 +1,2 @@
 .gameboard {width: 1500px; height: 700px;}
+.player {width: 100px; height: 25px; top: 600px; left: 740px; position: relative;}
