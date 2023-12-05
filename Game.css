@@ -1,1 +1,4 @@
-.gameboard {width: 1500px; height: 700px;}
+.gameboard {width: 1500px; height: 700px; background-color: gray;}
+#turkeyContainer{
+    position: relative;
+}
