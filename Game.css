@@ -1,1 +1,3 @@
 .gameboard {width: 1500px; height: 700px;}
+.gameoverbox{color:rgb(255, 0, 0); font-size: 300px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; position :absolute; top: -75px; text-align: center;
+width: 100%;}
